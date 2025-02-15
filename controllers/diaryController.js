@@ -1,4 +1,4 @@
-const Diary = require('../models/Diary');
+const Diary = require('../models/DIary');
 
 exports.addProductToDiary = async (req, res) => {
   try {
