@@ -9,4 +9,5 @@ const router = express.Router();
 router.post("/add", authMiddleware, addProductToDiary);
 router.delete("/delete", authMiddleware, deleteProductFromDiary);
 router.get("/:date", authMiddleware, getDiaryEntry);
+
 module.exports = router;
